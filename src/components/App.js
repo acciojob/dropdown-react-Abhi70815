@@ -193,8 +193,10 @@ function App()
 		<div id="state-name">{states[state].name}</div>
 		<div id="state-description">{states[state].description}</div>
 		<div id="city-name">{states[state].city[city].name}</div>
+		<div id="city-title">{states[state].city[city].name}</div>
 		<div id="city-description">{states[state].city[city].description} </div>
 		<div id="landmark-name">{states[state].city[city].landmarks[landmark].name}</div>
+		<div id="landmark-title">{states[state].city[city].landmarks[landmark].name}</div>
 		<div id="landmark-description">{states[state].city[city].landmarks[landmark].description}</div>
 		<div id="state-title">{states[state].name}</div>
 	</div>
